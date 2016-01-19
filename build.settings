@@ -1,0 +1,24 @@
+settings = 
+{
+    orientation = 
+    {
+        default = "landscapeRight",
+        supported = {"landscapeRight", "landscapeLeft"}
+    },
+    android = 
+    {
+        allowAppsReadOnlyAccessTofiles = false,
+        usesPermissions = 
+        {
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+        },
+        supportScreens = 
+        {
+            smallScreens = true,
+            normalScreens = true,
+            largeScreens = true,
+            xlargeScreens = true
+        },
+
+    }
+}
